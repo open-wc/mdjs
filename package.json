@@ -1,0 +1,31 @@
+{
+  "name": "mdjs",
+  "version": "0.0.1",
+  "description": "Combine markdown and javascript to create the ultimate documentation to allow live demos everywhere.",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "servor live",
+    "test": "return 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-wc/mdjs.git"
+  },
+  "keywords": [
+    "markdown",
+    "javascript",
+    "webcomponents",
+    "demos"
+  ],
+  "author": "daKmoR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-wc/mdjs/issues"
+  },
+  "homepage": "https://github.com/open-wc/mdjs#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "servor": "^3.2.0"
+  }
+}
